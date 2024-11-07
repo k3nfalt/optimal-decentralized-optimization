@@ -1,3 +1,6 @@
+# "On the Optimal Time Complexities in Decentralized Stochastic Asynchronous Optimization" *Alexander Tyurin, Peter Richtárik*
+## The code to reproduce the experiments from the *accepted paper at NeurIPS 2024*
+
 ## Quick Start
 ### 1. Install [Singularity](https://sylabs.io/guides/3.5/user-guide/introduction.html) (optional)
 If you don't want to install Singularity, make sure that you have all dependecies from Singularity.def (python3, numpy, pytorch, etc.)
