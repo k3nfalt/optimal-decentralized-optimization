@@ -1,0 +1,22 @@
+- algorithm_name: ef21
+  algorithm_master_params:
+    gamma: 1.0
+    gamma_multiply: 1
+    init_with_gradients: true
+  calculate_gradient_estimator_error: true
+  calculate_norm_of_gradients: true
+  calculate_function: true
+  compressor_name: top_k
+  compressor_params:
+    number_of_coordinates: 300
+  task: libsvm
+  dataset_name: mushrooms
+  function: auto_encoder
+  num_nodes: 10
+  number_of_iterations: 8000
+  parallel: false
+  number_of_processes: 10
+  point_initializer: xavier_normal
+  seed: 0
+  shared_memory_size: 100000
+  shuffle: true

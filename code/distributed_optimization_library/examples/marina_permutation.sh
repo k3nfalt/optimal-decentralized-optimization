@@ -1,0 +1,1 @@
+MKL_NUM_THREADS=1 PYTHONPATH=./code python3 code/distributed_optimization_library/experiments/experiments.py --path_to_dataset ~/data --dumps_path ~/tmp/ --config ./code/distributed_optimization_library/examples/marina_permutation.yaml

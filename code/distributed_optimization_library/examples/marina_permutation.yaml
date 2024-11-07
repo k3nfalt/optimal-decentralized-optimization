@@ -1,0 +1,22 @@
+- algorithm_name: marina_permutation
+  algorithm_master_params:
+    gamma: 1.0
+    gamma_multiply: 1
+  calculate_gradient_estimator_error: true
+  calculate_norm_of_gradients: true
+  calculate_function: true
+  compressor_name: permutation
+  compressor_params:
+    total_number_of_nodes: 10
+  task: libsvm
+  dataset_name: mushrooms
+  function: auto_encoder
+  num_nodes: 10
+  number_of_iterations: 4000
+  parallel: true
+  number_of_processes: 10
+  multiprocessing_spawn: true
+  point_initializer: xavier_normal
+  seed: 0
+  shared_memory_size: 100000
+  shuffle: true
